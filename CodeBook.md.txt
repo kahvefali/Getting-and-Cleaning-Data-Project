@@ -1,0 +1,420 @@
+DATA DICTIONARY – GETTING AND CLEANING DATA COURSE PROJECT 
+TIDY DATA SET STEP 4
+RowID 	    	 5
+       Unique ID for each row 
+                1 …10299
+
+
+SubjectID	    	 2
+Unique ID for each of 30 volunteers (within an age bracket of 19-48 years) who performed the six activities
+                1 …30
+
+
+activity_name   	 18
+Six activities that each person performed wearing a smartphone (Samsung Galaxy S II) on the waist             
+ 		               LAYING
+      SITTING
+                  STANDING
+                  WALKING
+      WALKING_DOWNSTAIRS
+      WALKING_UPSTAIRS
+
+
+dataset_type   	 5
+Type of data that is showing if the data is coming from training data  or the test data. (70% of the volunteers was selected for generating the training data and 30% the test data) 
+ 		               test
+      train
+
+
+tBodyAcc-mean()-X 	16
+Mean value of the body acceleration signal into direction X using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+                 	      -1.0000000000000 to 1. 0000000000000
+
+
+tBodyAcc-mean()-Y 	16
+Mean value of the body acceleration signal into direction Y using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+            	      -1.0000000000000 to 1. 0000000000000
+
+
+tBodyAcc-mean()-Z 	16
+Mean value of the body acceleration signal into direction Z using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+   	                  -1.0000000000000 to 1. 0000000000000
+
+
+tBodyAcc-std()-X  	16
+Standard deviation of the body acceleration signal into direction X using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+      	            -1.0000000000000 to 1. 0000000000000
+
+
+tBodyAcc-std()-Y		16
+Standard deviation of the body acceleration signal into direction Y using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+      	            -1.0000000000000 to 1. 0000000000000
+
+
+tBodyAcc-std()-Z		16
+Standard deviation of the body acceleration signal into direction Z using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+      	            -1.0000000000000 to 1. 0000000000000
+
+
+tGravityAcc-mean()-X	16
+Mean value of the gravity acceleration signal into direction X using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+     		             -1.0000000000000 to 1. 0000000000000
+
+
+tGravityAcc-mean()-Y	16
+Mean value of the gravity acceleration signal into direction Y using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+      	            -1.0000000000000 to 1. 0000000000000
+
+
+tGravityAcc-mean()-Z	16
+Mean value of the gravity acceleration signal into direction Y using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+       	           -1.0000000000000 to 1. 0000000000000
+
+
+tGravityAcc-std()-X	16
+Standard deviation of the gravity acceleration signal into direction X using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+               	     -1.0000000000000 to 1. 0000000000000
+
+
+tGravityAcc-std()-Y	16
+Standard deviation of the gravity acceleration signal into direction Y using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+               	      -1.0000000000000 to 1. 0000000000000
+
+
+tGravityAcc-std()-Z	16
+Standard deviation of the gravity acceleration signal into direction Z using low pass Butterworth filter with a corner frequency of 0.3 Hz. (prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+                 		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccJerk-mean()-X	16
+Mean value of the body acceleration were derived in time to obtain Jerk signals signal into direction X.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                 		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccJerk-mean()-Y	16
+Mean value of the body acceleration were derived in time to obtain Jerk signals signal into direction Y.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccJerk-mean()-Z	16
+Mean value of the body acceleration were derived in time to obtain Jerk signals signal into direction Z.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccJerk-std()-X	16
+Standard deviation of the body acceleration were derived in time to obtain Jerk signals signal into direction X.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                 		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccJerk-std()-Y	16
+Standard deviation of the body acceleration were derived in time to obtain Jerk signals signal into direction Y.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccJerk-std()-Z	16
+Standard deviation of the body acceleration were derived in time to obtain Jerk signals signal into direction Z.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                 		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyro-mean()-X	16
+Mean value of the angular velocity come from gyroscope signal into direction X.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                         -1.0000000000000 to 1. 0000000000000
+
+
+
+tBodyGyro-mean()-Y	16
+Mean value of the angular velocity come from gyroscope signal into direction Y.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+               		-1.0000000000000 to 1. 0000000000000
+   
+
+tBodyGyro-mean()-Z	16
+Mean value of the angular velocity come from gyroscope signal into direction Z.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+       
+
+tBodyGyro-std()-X 	16
+Standard deviation of the angular velocity come from gyroscope signal into direction X.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+       
+
+tBodyGyro-std()-Y		16
+Standard deviation of the angular velocity come from gyroscope signal into direction Y.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyro-std()-Z		16
+Standard deviation of the angular velocity come from gyroscope signal into direction Z.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroJerk-mean()-X	16
+Mean value of the angular velocity come from gyroscope and were derived in time to obtain Jerk signals signal into direction X.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroJerk-mean()-Y	16
+Mean value of the angular velocity come from gyroscope and were derived in time to obtain Jerk signals signal into direction Y.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroJerk-mean()-Z	16
+Mean value of the angular velocity come from gyroscope and were derived in time to obtain Jerk signals signal into direction Z.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+
+
+tBodyGyroJerk-std()-X	16
+Standard deviation of the angular velocity come from gyroscope and were derived in time to obtain Jerk signals signal into direction X.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroJerk-std()-Y	16
+Standard deviation of the angular velocity come from gyroscope and were derived in time to obtain Jerk signals signal into direction Y.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+               	      -1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroJerk-std()-Z	16
+Standard deviation of the angular velocity come from gyroscope and were derived in time to obtain Jerk signals signal into direction Z.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                 		-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccMag-mean()	16
+Mean value of the body acceleration come from accelerometer signals that  were calculated using the Euclidean norm.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+tBodyAccMag-std()		16
+Standard deviation of the body acceleration come from accelerometer signals that  were calculated using the Euclidean norm.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                  	-1.0000000000000 to 1. 0000000000000
+
+
+tGravityAccMag-mean()	16
+Mean value of the gravity acceleration come from accelerometer signals that  were calculated using the Euclidean norm.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+                 		-1.0000000000000 to 1. 0000000000000
+
+
+tGravityAccMag-std()	16
+Standard deviation of the gravity acceleration come from accelerometer signals that  were calculated using the Euclidean norm.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+       -1.0000000000000 to 1. 0000000000000 
+
+
+tBodyAccJerkMag-mean()	16
+Mean value of the body acceleration come from accelerometer signals that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+       -1.0000000000000 to 1. 0000000000000
+
+
+
+tBodyAccJerkMag-std()    16
+Standard deviation of the body acceleration come from accelerometer signals that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+		   	  -1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroMag-mean()      16
+Mean value of the body acceleration come from gyroscope signals that were calculated using the Euclidean norm.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+	           	  -1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroMag-std ()      16
+Standard deviation of the body acceleration come from gyroscope signals that were calculated using the Euclidean norm.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroJerkMag-mean()  16
+Mean value of the body acceleration come from gyroscope signals that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+tBodyGyroJerkMag-std()   16
+Standard deviation of the body acceleration come from gyroscope signals that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(prefix 't' to denote time - time domain signals those were captured at a constant rate of 50 Hz.) 
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAcc-mean()-X() 	 16
+Mean value of the body acceleration signal into direction X (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAcc-mean()-Y   	 16
+Mean value of the body acceleration signal into direction Y (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+
+fBodyAcc-mean()-Z   	 16
+Mean value of the body acceleration signal into direction Z (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+
+
+fBodyAcc-std()-X  	 16
+Standard deviation of the body acceleration signal into direction X (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAcc-std()-Y  	 16
+Standard deviation of the body acceleration signal into direction Y (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAcc-std()-Z		 16
+Standard deviation of the body acceleration signal into direction Z (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAcc-meanFreq()-X	 16
+Mean frequency of the body acceleration signal into direction X (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAcc-meanFreq()-Y	 16
+Mean frequency of the body acceleration signal into direction Y (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAcc-meanFreq()-Z	 16
+Mean frequency of the body acceleration signal into direction Z (Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-mean()-X	 16
+Mean value of the body acceleration signal into direction X and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-mean()-Y	 16
+Mean value of the body acceleration signal into direction Y and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-mean()-Z	 16
+Mean value of the body acceleration signal into direction Z and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+
+
+fBodyAccJerk-std()-X	 16
+Standard deviation of the body acceleration signal into direction X and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-std()-Y	 16
+Standard deviation of the body acceleration signal into direction Y and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-std()-Z	 16
+Standard deviation of the body acceleration signal into direction Z and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-meanFreq()-X	 16
+Mean frequency of the body acceleration signal into direction X and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-meanFreq()-Y	 16
+Mean frequency of the body acceleration signal into direction Y and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccJerk-meanFreq()-Z	 16
+Mean frequency of the body acceleration signal into direction Z and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals)
+			  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-mean()-X 		16
+Mean value of the body acceleration come from gyroscope signals into direction X.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-mean()-Y		16
+Mean value of the body acceleration come from gyroscope signals into direction Y.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-mean()-Z		16
+Mean value of the body acceleration come from gyroscope signals into direction Z.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-std()-X			16
+Standard deviation of the body acceleration come from gyroscope signals into direction X.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-std()-Y			16
+Standard deviation of the body acceleration come from gyroscope signals into direction Y.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-std()-Z			16
+Standard deviation of the body acceleration come from gyroscope signals into direction Z.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-meanFreq()-X		16
+Mean frequency of the body acceleration come from gyroscope signals into direction X.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-meanFreq()-Y		16
+Mean frequency of the body acceleration come from gyroscope signals into direction Y.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyGyro-meanFreq()-Z		16
+Mean frequency of the body acceleration come from gyroscope signals into direction Z.(Note the 'f' to indicate frequency domain signals)
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccMag-mean()		16
+Mean value of the body acceleration that were calculated using the Euclidean norm.(Note the 'f' to indicate frequency domain signals) 
+	           	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccMag-std () 	     16
+Standard deviation of the body acceleration that were calculated using the Euclidean norm.(Note the 'f' to indicate frequency domain signals) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyAccMag-meanFreq()		16
+Mean frequency of the body acceleration that were calculated using the Euclidean norm.(Note the 'f' to indicate frequency domain signals) 
+	           	  -1.0000000000000 to 1. 0000000000000
+
+
+
+
+
+fBodyBodyAccJerkMag-mean()     16
+Mean value of the body acceleration that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyBodyAccJerkMag-std()	 16
+Standard deviation of the body acceleration that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyBodyGyroJerkMag-mean()	 16
+Mean value of the body acceleration that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+
+fBodyBodyAccJerkMag-std()	 16
+Standard deviation of the body acceleration come from gyroscope signals, that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+
+  
+fBodyBodyAccJerkMag-std()	 16
+Standard deviation of the body acceleration come from gyroscope signals, that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+ 
+  
+fBodyBodyGyroJerkMag-meanFreq() 16
+Mean frequency of the body acceleration come from gyroscope signals, that were calculated using the Euclidean norm and were derived in time to obtain Jerk signals.(Note the 'f' to indicate frequency domain signals) 
+	   	   	  -1.0000000000000 to 1. 0000000000000
+"
+
