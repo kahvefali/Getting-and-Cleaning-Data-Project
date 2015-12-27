@@ -1,5 +1,3 @@
-# Getting-and-Cleaning-Data-Project
-
 ==================================================================
 Getting and Cleaning Data Course Project
 Version 1.0
